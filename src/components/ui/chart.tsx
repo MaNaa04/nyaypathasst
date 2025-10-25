@@ -1,7 +1,9 @@
 "use client";
 
 import * as React from "react";
-import * as RechartsPrimitive from "recharts@2.15.2";
+import { cva } from "class-variance-authority";
+import type { ClassNameValue } from "tailwind-merge";
+import * as RechartsPrimitive from "recharts";
 
 import { cn } from "@/lib/utils";
 
